@@ -16,7 +16,7 @@ public class PirataNormal extends Pirata {
         while (insultOriginal1 == insultOriginal3 || insultOriginal2 == insultOriginal3) {
             insultOriginal3 = ra.nextInt(8);
         }
-        insultsElegits[0] = this.opcionsInsult[insultOriginal1]; // we assign the chosen insults to the insults array
+        insultsElegits[0] = this.opcionsInsult[insultOriginal1]; // we assign the chosen insults to the insults array 
         insultsElegits[1] = this.opcionsInsult[insultOriginal2];
         insultsElegits[2] = this.opcionsInsult[insultOriginal3];
     }
